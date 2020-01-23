@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tanks Survey</title>
+  </head>
+  <style>
+    * {
+      border-collapse: collapse;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #col {
+      border-collapse: collapse;
+    }
+    .c {
+      border-collapse: collapse;
+      border-style: solid;
+      border-width: 1px 0px 1px 1px;
+      border-color: gray;
+    }
+    .l {
+      border-collapse: collapse;
+      border-style: solid;
+      border-width: 1px 1px 1px 0px;
+      border-color: gray;
+    }
+    .r {
+      border-collapse: collapse;
+      border-style: solid;
+      border-width: 1px 0px 1px 0px;
+      border-collapse: collapse;
+      border-color: gray;
+    }
+    .close {
+      border-collapse: collapse;
+      border-style: solid;
+      border-width: 0px 0px 0px 1px;
+      border-color: gray;
+    }
+    .cv {
+      border-collapse: collapse;
+      border-style: solid;
+      border-width: 0px 0px 0px 1px;
+      border-color: gray;
+    }
+    .special {
+      border-style: solid;
+      border-width: 0px 0px 0px 1px;
+      border-color: gray;
+    }
+    img {
+      width: 175px;
+      height: 150px;
+    }
+    h1,
+    th,
+    td,
+    thead,
+    tbody,
+    table,
+    input,
+    .sans-serif {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: left;
+    }
+  </style>
+  <body>
+    <h1>Tanks</h1>
+    <table style="width: 50%;">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="close" id="col">T-34</th>
+          <th class="cv" id="col">KV-1</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="l" id="col">Armour</td>
+          <td class="r" id="col">2.36 inches</td>
+          <td class="c" id="col">2.95276 inches</td>
+        </tr>
+        <tr>
+          <td class="l" id="col">Top Speed</td>
+          <td class="r" id="col">32 mph</td>
+          <td class="c" id="col">25 mph</td>
+        </tr>
+        <tr>
+          <td class="l" id="col">Type</td>
+          <td class="r" id="col">Medium</td>
+          <td class="c" id="col">Heavy</td>
+        </tr>
+        <tr>
+          <td class="l" id="col">Crew</td>
+          <td class="r" id="col">4</td>
+          <td class="c" id="col">5</td>
+        </tr>
+        <tr>
+          <td class="l" id="col">Tank Gun</td>
+          <td class="r" id="col">3 inches</td>
+          <td class="c" id="col">3 inches</td>
+        </tr>
+        <tr>
+          <td class="l" id="col">Weight</td>
+          <td class="r" id="col">26 tons</td>
+          <td class="c" id="col">100 tons</td>
+        </tr>
+        <tr>
+          <td class="l" id="col">Engine</td>
+          <td class="r" id="col">
+            Model V-2-34 38.8 L V12 Diesel engine of 500 hp
+          </td>
+          <td class="c" id="col">
+            600 hp V-2K
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h4>T-34</h4>
+    <img src="Char_T-34.jpg" alt="T-34" />
+    <h4>KV-1</h4>
+    <img src="h.jpg" alt="KV-1" />
+    <h2>Survey</h2>
+    <p>Which one do you like more?</p>
+    <input type="radio" name="gender" value="KV-1" /> KV-1<br />
+    <input type="radio" name="gender" value="T-34" /> T-34<br />
+    <input type="submit" value="Submit" />
+    <footer><h3>Credits</h3></footer>
+    <p>Wikipedia and W3 Schools</p>
+  </body>
+</html>
